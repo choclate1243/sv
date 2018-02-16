@@ -1,6 +1,18 @@
-models/player/jarjar/jarjar.bmp
-models/player/jarjar/jarjar.mdl
-models/player/jarjar/jarjarT.mdl
+// asd.res - created with RESGen v2.0.3.
+// RESGen is made by Jeroen "ShadowLord" Bogers,
+// with serveral improvements and additions by Zero3Cool.
+// For more info go to http://resgen.hltools.com
+
+// .res entries (9):
+decals.wad
+extension.wad
+halflife.wad
+jp_dev.wad
+last.wad
+models/player/ugandan_knuckles/ugandan_knuckles.mdl
+nw.wad
+opfor.wad
+scopfor.wad
 models/player/ugandaknacle/ugandaknacle.mdl
 models/player/ugandaknacle/ugandaknacle.bmp
 models/cubemath/chars/d6.mdl
@@ -14,9 +26,3 @@ sound/hl/weapons/357_reload1.wav
 sound/hl/weapons/357_shot1.wav
 sound/hl/weapons/357_shot2.wav
 sound/gta2/wasted.wav
-sound/epone/music/blast_pit3.mp3
-sound/epone/music/dearenemy.mp3
-sound/epone/music/hl_c04.mp3
-sound/epone/music/hl_c04_2.mp3
-sound/epone/music/In.mp3
-sound/epone/music/littlelight.mp3
