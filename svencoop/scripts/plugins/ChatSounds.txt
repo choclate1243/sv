@@ -103,7 +103,6 @@ america america.ogg
 move! yarfde/movebit.ogg
 boo w00tguy/botrace/boo.wav
 gasp w00tguy/botrace/gasp3.wav
-scientistsong votemap/hakasemix.wav
 boludos voice_commands/tucumanos/atiendo_boludos.ogg
 clear voice_commands/tucumanos/clear.wav
 position voice_commands/tucumanos/com_getinpos.wav
@@ -123,7 +122,6 @@ regroup voice_commands/tucumanos/regroup.wav
 sad voice_commands/tucumanos/rip_n01.mp3
 win2 sonic_the_hedgehog/sonic_ending.wav
 boss sonic_the_hedgehog/sonic_final_boss.wav
-elevator sectore/elevatormusic.wav
 good sectore/goodwork.wav
 wassup sectore/supb.wav
 op4song sectore/xenop4music_once.mp3
@@ -297,3 +295,4 @@ sape sape.wav
 sueltame sueltame.wav
 tengomiedo tengomiedo.wav
 mwahaha freezer.ogg
+hohoho hohoho.ogg
