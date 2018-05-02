@@ -9,19 +9,25 @@ enum PointCheckpointFlags
 	SF_CHECKPOINT_REUSABLE 		= 1 << 0,	//This checkpoint is reusable
 }
 
-class point_checkpoint : ScriptBaseEntity
+class point_checkpoint : ScriptBaseAnimating
 {
 	private CSprite@ m_pSprite;
 	private int m_iNextPlayerToRevive = 1;
 	
-	private float m_flDelayBeforeStart 			= 3; 	//How much time between being triggered and starting the revival of dead players
-	private float m_flDelayBetweenRevive 		= 1; 	//Time between player revive
+	// How much time between being triggered and starting the revival of dead players
+	private float m_flDelayBeforeStart 			= 3;
 	
-	private float m_flDelayBeforeReactivation 	= 60; 	//How much time before this checkpoint becomes active again, if SF_CHECKPOINT_REUSABLE is set
+	// Time between player revive
+	private float m_flDelayBetweenRevive 		= 1;
 	
-	private float m_flRespawnStartTime;					//When we started a respawn
+	// How much time before this checkpoint becomes active again, if SF_CHECKPOINT_REUSABLE is set
+	private float m_flDelayBeforeReactivation 	= 60; 	
 	
-	private bool m_fSpawnEffect					= false; // Show Xenmaker-like effect when the checkpoint is spawned?
+	// When we started a respawn
+	private float m_flRespawnStartTime;					
+	
+	// Show Xenmaker-like effect when the checkpoint is spawned?
+	private bool m_fSpawnEffect					= false; 
 	
 	bool KeyValue( const string& in szKey, const string& in szValue )
 	{
@@ -57,6 +63,15 @@ class point_checkpoint : ScriptBaseEntity
 		}
 		else
 			return BaseClass.KeyValue( szKey, szValue );
+	}
+	
+	// If youre gonna use this in your script, make sure you don't try
+	// to access invalid animations. -zode
+	void SetAnim( int animIndex ) 
+	{
+		self.pev.sequence = animIndex;
+		self.pev.frame = 0;
+		self.ResetSequenceInfo();
 	}
 	
 	void Precache()
@@ -110,6 +125,8 @@ class point_checkpoint : ScriptBaseEntity
 		else
 			g_EntityFuncs.SetSize( self.pev, Vector( -8, -8, -16 ), Vector( 8, 8, 16 ) );
 			
+		SetAnim( 0 ); // set sequence to 0 aka idle
+			
 		// If the map supports survival mode but survival is not active yet,
 		// spawn disabled checkpoint
 		if ( g_SurvivalMode.MapSupportEnabled() && !g_SurvivalMode.IsActive() )
@@ -127,6 +144,9 @@ class point_checkpoint : ScriptBaseEntity
 			if ( m_fSpawnEffect )
 				CreateSpawnEffect();
 		}
+		
+		SetThink( ThinkFunction( this.IdleThink ) );
+		self.pev.nextthink = g_Engine.time + 0.1f;
 	}
 	
 	void CreateSpawnEffect()
@@ -187,16 +207,14 @@ class point_checkpoint : ScriptBaseEntity
 		self.pev.frags = 1.0f;
 		
 		g_SoundSystem.EmitSound( self.edict(), CHAN_STATIC, "../media/valve.mp3", 1.0f, ATTN_NONE );
-			
-		SetThink( ThinkFunction( this.RespawnStartThink ) );
-		self.pev.nextthink = g_Engine.time + m_flDelayBeforeStart;
+
+		self.pev.rendermode		= kRenderTransTexture;
+		self.pev.renderamt		= 255;
 		
-		m_flRespawnStartTime = g_Engine.time;
+		SetThink( ThinkFunction( this.FadeThink ) );
+		self.pev.nextthink = g_Engine.time + 0.1f;
 		
-		//Make this entity invisible
-		self.pev.effects |= EF_NODRAW;
-		
-		//Trigger targets
+		// Trigger targets
 		self.SUB_UseTargets( pOther, USE_TOGGLE, 0 );
 	}
 	
@@ -213,8 +231,42 @@ class point_checkpoint : ScriptBaseEntity
 			self.pev.effects &= ~EF_NODRAW;
 		else
 			self.pev.effects |= EF_NODRAW;
-			
+		
 		self.pev.health = bEnabled ? 1.0f : 0.0f;
+	}
+	
+	// GeckoN: Idle Think - just to make sure the animation gets updated properly.
+	// Should fix the "checkpoint jitter" issue.
+	void IdleThink()
+	{
+		self.StudioFrameAdvance();
+		self.pev.nextthink = g_Engine.time + 0.1;
+	}
+	
+	void FadeThink()
+	{
+		if ( self.pev.renderamt > 0 )
+		{
+			self.StudioFrameAdvance();
+			
+			self.pev.renderamt -= 30;
+			if ( self.pev.renderamt < 0 )
+				self.pev.renderamt = 0;
+			
+			self.pev.nextthink = g_Engine.time + 0.1f;
+		}
+		else
+		{
+			SetThink( ThinkFunction( this.RespawnStartThink ) );
+			self.pev.nextthink = g_Engine.time + m_flDelayBeforeStart;
+			
+			m_flRespawnStartTime = g_Engine.time;
+		
+			// Make this entity invisible
+			self.pev.effects |= EF_NODRAW;
+			
+			self.pev.renderamt = 255;
+		}
 	}
 	
 	void RespawnStartThink()
@@ -275,8 +327,11 @@ class point_checkpoint : ScriptBaseEntity
 			
 			self.pev.nextthink = g_Engine.time + 5.0f;
 		}
-		else //Another player could require reviving
+		//Another player could require reviving
+		else
+		{
 			self.pev.nextthink = g_Engine.time + m_flDelayBetweenRevive;
+		}
 	}
 	
 	void StartKillSpriteThink()
@@ -319,7 +374,8 @@ class point_checkpoint : ScriptBaseEntity
 		
 		self.pev.frags = 0.0f;
 		
-		SetThink( null );
+		SetThink( ThinkFunction( this.RespawnThink ) );
+		self.pev.nextthink = g_Engine.time + 0.1f;
 	}
 }
 

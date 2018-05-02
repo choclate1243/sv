@@ -2,11 +2,8 @@
 * This script implements HLSP specific Classic Mode features
 */
 
-#include "hl_weapons/weapon_hl357"
-
 array<ItemMapping@> g_ItemMappings = {
-	ItemMapping( "weapon_m16", "weapon_9mmAR" ),
-	ItemMapping( "weapon_357", GetHLPYTHONName() )
+	ItemMapping( "weapon_m16", "weapon_9mmAR" )
 };
 
 bool ShouldRestartIfClassicModeChangesOn( const string& in szMapName )
@@ -24,14 +21,12 @@ bool ShouldRestartIfClassicModeChangesOn( const string& in szMapName )
 			szMapName != "ba_maint" &&
 			szMapName != "ba_elevator" &&
 			szMapName != "ba_outro" &&
-			szMapName != "choose_campaign_1" &&
-			szMapName != "server_crash" &&
-			szMapName != "server_crash2";
+			szMapName != "of0a0" &&
+			szMapName != "dynamic_mapvote";
 }
 
 void ClassicModeMapInit()
 {
-	RegisterHLPYTHON();
 	g_ClassicMode.SetItemMappings( @g_ItemMappings );
 
 	//We want classic mode voting to be enabled here
