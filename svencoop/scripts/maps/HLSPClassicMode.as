@@ -2,8 +2,13 @@
 * This script implements HLSP specific Classic Mode features
 */
 
+#include "hl_weapons/weapon_hl357"
+#include "cubemath/item_healthkit2"
+
 array<ItemMapping@> g_ItemMappings = {
-	ItemMapping( "weapon_m16", "weapon_9mmAR" )
+	ItemMapping( "weapon_m16", "weapon_9mmAR" ),
+	ItemMapping( "item_healthkit", "item_healthkit2" ),
+	ItemMapping( "weapon_357", GetHLPYTHONName() )
 };
 
 bool ShouldRestartIfClassicModeChangesOn( const string& in szMapName )
@@ -27,6 +32,12 @@ bool ShouldRestartIfClassicModeChangesOn( const string& in szMapName )
 
 void ClassicModeMapInit()
 {
+	// g_Game.PrecacheModel( "models/w_medkit.mdl" );
+	// g_SoundSystem.PrecacheSound( "items/smallmedkit1.wav" );
+	// g_SoundSystem.PrecacheSound( "items/gunpickup2.wav" );
+	
+	RegisterHLPYTHON();
+	RegisterItemHealthkit2CustomEntity();
 	g_ClassicMode.SetItemMappings( @g_ItemMappings );
 
 	//We want classic mode voting to be enabled here
@@ -34,6 +45,23 @@ void ClassicModeMapInit()
 	
 	if( !ShouldRestartIfClassicModeChangesOn( g_Engine.mapname ) )
 		g_ClassicMode.SetShouldRestartOnChange( false );
+}
+
+void ClassicModeMapActivate()
+{
+	for( int i = 0; i < g_Engine.maxEntities; ++i ) {
+		CBaseEntity@ pEntity = g_EntityFuncs.Instance( i );
+		if( pEntity is null ) continue;
+		if( pEntity.pev.classname != "item_healthkit" ) continue;
+		
+		g_EntityFuncs.Create( "item_healthkit2", pEntity.pev.origin, pEntity.pev.angles, false);
+		g_EntityFuncs.Remove( pEntity );
+	}
+}
+
+void MapActivate()
+{
+	ClassicModeMapActivate();
 }
 
 /*
