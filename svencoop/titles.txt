@@ -588,3 +588,459 @@ Spec_Duck
 {
 Press DUCK for Spectator Menu
 }
+
+
+//TITLES FOR ECHOES
+// Position command $position x y 
+// x & y are from 0 to 1 to be screen resolution independent
+// -1 means center in each dimension
+// Effect command $effect <effect number>
+// effect 0 is fade in/fade out
+// effect 1 is flickery credits
+// effect 2 is write out (training room)
+// Text color r g b command $color
+// fadein time fadeout time / hold time
+// $fadein (message fade in time - per character in effect 2)
+// $fadeout (message fade out time)
+// $holdtime (stay on the screen for this long)
+
+
+//CHAPTER TITLES
+
+$position -1 0.7
+$effect 2
+$color 100 100 100
+$color2 240 110 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 8
+$fadeout 8
+
+CHAPTER1
+{
+Sequence 1
+
+FOUNDATION
+}
+
+CHAPTER2
+{
+Sequence 2
+
+COLLAPSE
+}
+
+CHAPTER3
+{
+Sequence 3
+
+RUIN
+}
+
+CHAPTER4
+{
+Sequence 4
+
+SURGE
+}
+
+CHAPTER5
+{
+Sequence 5
+
+LIBERATION
+}
+
+CHAPTER6
+{
+Sequence 6
+
+TABULA RASA
+}
+
+CHAPTER7
+{
+Sequence 7
+
+ASHES
+}
+
+CHAPTER8
+{
+Sequence 8
+
+DUST
+}
+
+CHAPTER9
+{
+Sequence 9
+
+ECHOES
+}
+
+
+//STORY TEXT
+
+$position -1 -1
+$effect 2
+$color 100 100 100
+$color2 240 110 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 3.5
+$fadeout 1.5
+
+INTRO_1
+{
+SUBJECT:
+
+Candidate #12
+}
+
+INTRO_2
+{
+STATUS:
+
+Evaluation commencing
+}
+
+
+$position -1 0.6
+$holdtime 8
+$fadeout 8
+
+
+INTRO_LOCATION
+{
+LOCATION:
+
+Black Mesa Research Facility
+Black Mesa, New Mexico
+}
+
+INTRO_DATE
+{
+DATE:
+
+05 / 16 / (REDACTED)
+}
+
+INTRO_TIME
+{
+TIME:
+
+08:57
+}
+
+
+//GAMEOVER TEXT
+
+$position -1 -1
+$effect 2
+$color 100 100 100
+$color2 240 110 0
+$fadein 0.01
+$fxtime 0.25
+$fadeout 1.5
+
+
+$holdtime 60
+
+GAMEOVER_1
+{
+SUBJECT:  
+
+CANDIDATE #12
+
+
+STATUS:  
+
+EVALUATION TERMINATED
+
+
+POSTMORTEM:
+
+Subject failed to effectively utilize
+human assets in achievement of goal.
+}
+
+GAMEOVER_2
+{
+SUBJECT:  
+
+CANDIDATE #12
+
+
+STATUS:  
+
+EVALUATION TERMINATED
+
+
+POSTMORTEM:
+
+Subject demonstrated exceedingly poor 
+judgement prior to containment failure.
+}
+
+GAMEOVER_3
+{
+SUBJECT:  
+
+CANDIDATE #12.222222222222222
+
+
+null:
+
+3VHL%££ION "£"%$^&*'##ED
+
+
+ERroR... stACk OVeRFloW:
+
+UNF0RS35N CON8&Q£NCE5
+}
+
+
+//ENDING TEXT
+
+$position -1 -1
+$effect 2
+$color 100 100 100
+$color2 240 110 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 5
+$fadeout 2
+
+ENDING_1
+{
+SUBJECT:
+
+Candidate #12
+
+
+
+STATUS:
+
+Evaluation period complete.
+}
+
+$holdtime 15
+
+ENDING_2
+{
+OUTCOME:
+
+Subject unsuitable for employment.
+
+
+
+RATIONALE:
+
+Candidate #12 demonstrated keen ability 
+but was susceptible to external influence.
+}
+
+$fadeout 5
+
+ENDING_3
+{
+POSTSCRIPT:
+
+Candidate #01
+Extracted.
+
+Candidate #03
+Hired.
+
+Candidate #07
+Detained.
+
+
+All other candidates dismissed.
+Awaiting further instructions...
+}
+
+//CREDITS
+
+$position -1 -1
+$effect 0
+$color 128 128 128
+$color2 0 0 0
+$fadein 5
+$fadeout 5
+$holdtime 5
+
+CREDITS_1
+{
+HALF-LIFE: ECHOES
+
+
+Created by
+James Cockburn
+}
+
+CREDITS_2
+{
+SUPPORT AND BETA TESTING
+
+The Whole Half-Life
+http://twhl.info/
+
+The Beta Testers Collective
+http://betatesterscollective.com/
+
+Lewis Anderson
+Doug Maclean
+Ross Mathieson
+
+The following users at Moddb.com
+Trempler
+Gunship_Mark_II
+UrbaNebula
+Qwertyus
+Crypt
+BurnerMan
+Unq
+Solokiller
+GeckonCZ
+}
+
+CREDITS_3
+{
+ENGINE AND EDITING TOOLS
+
+Spirit of Half-Life 1.5
+(With various edits to source code by myself)
+http://www.moddb.com/mods/spirit-of-half-life
+
+VHLT compiling tools
+https://forums.svencoop.com/forumdisplay.php/217-Vluzacn-s-Map-Compile-Tools
+
+Jackhammer editor
+http://jackhammer.hlfx.ru/en/
+}
+
+CREDITS_4
+{
+TEXTURES AND SPRITES
+
+Nightwatch Textures
+http://www.moddb.com/games/half-life/addons/nightwatch-texture-pack
+
+Blood Decals
+http://gamebanana.com/sprites/253
+
+HD Skyboxes
+https://gamebanana.com/textures/download/406
+
+Additional Sprites
+https://gamebanana.com/effects/download/5753
+}
+
+CREDITS_5
+{
+MODELS
+
+Valve Software / Gearbox Software / Rewolf Software
+Wornz
+Ambient.Impact
+Romka
+arahu01
+Marphy Black
+Decay team 
+Enfield
+Super Definition
+Arachnid-X
+Chubby
+Fury_161
+Gaming Lord
+Szarak
+S@bre
+Romka
+Besli
+Cro-man / Davor
+Qwertyus
+
+Please read the credits.txt in the
+README folder for a more detailed list.
+}
+
+CREDITS_6
+{
+SOUNDTRACK
+
+Various replacement sounds by Valve Software, Gearbox Software
+Many edited / remixed by myself
+
+Additional sounds from 
+http://www.soundjay.com/
+http://www.freesound.org/browse/
+
+
+All music created by Kevin MacLeod - Incompetech.com 
+
+Very Low Note
+Anxiety
+Mechanolith
+Controlled Chaos - no percussion 
+Controlled Chaos
+It is Lost
+Aftermath
+Redletter
+Unseen Horrors
+Junkyard Tribe
+Deep Noise
+Spacial Winds
+Bump in the Night
+Hush
+Bent and Broken
+Static Motion
+
+All Licensed under Creative Commons: By Attribution 3.0 License
+http://creativecommons.org/licenses/by/3.0/
+}
+
+$holdtime 20
+
+CREDITS_7
+{
+
+Dedicated to Sam and Emma.
+With you, anything is possible.
+
+My gratitude to Valve Software, Gearbox Software
+and to all who support the modding community.
+
+Thank you for playing.
+}
+
+//GAME MESSAGES
+$position -1 0.65
+$effect 2
+$color 100 100 100
+$color2 240 110 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 2.0
+$fadeout 0.5
+
+GAMESAVED
+{
+Observation archived...
+}
+
+
+//GAME TITLE
+$position -1 -1
+$effect 0
+$color 180 180 180
+$color2 0 0 0
+$fadein 4.0
+$holdtime 6.0
+$fadeout 4.0
+
+GAMETITLE
+{
+Echoes
+}
