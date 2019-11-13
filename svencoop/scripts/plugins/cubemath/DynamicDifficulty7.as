@@ -33,12 +33,12 @@ final class PlayerDiffData {
 	/**
 	*	Players vote value
 	*/
-	double m_flDiffVote = -1.0;
+	double m_flDiffVote = 1.0;
 	
 	/**
 	*	Players vote value
 	*/
-	double m_flLastVoted = 0.0;
+	double m_flLastVoted = 1.0;
 	
 	/**
 	*	Players was Player Alive?
@@ -46,7 +46,7 @@ final class PlayerDiffData {
 	bool m_flLastIsAlive = true;
 	
 	PlayerDiffData(){
-		m_flDiffVote = -1.0;
+		m_flDiffVote = 1.0;
 		m_flLastVoted = g_Engine.time;
 	}
 	
@@ -397,10 +397,10 @@ final class Diffy {
 	
 	double m_flMessageTime;
 
-	private string s_message = "DIFFICULTY: 50.0 Percent (Medium)";
-	private string s_oldmessage = "DIFFICULTY: 50.0 Percent (Medium)";
-	private string s_votemessage = "DIFFICULTY: \"diff status\" then open console for voteinfo. Current Difficulty is 50.0 Percent (Medium)";
-	private string s_oldvotemessage = "DIFFICULTY: \"diff status\" then open console for voteinfo. Current Difficulty is 50.0 Percent (Medium)";
+	private string s_message = "Welcome to HVRDCORE HVLF-LIFE - PREPARE TO DIE!!!";
+	private string s_oldmessage = "Welcome to HVRDCORE HVLF-LIFE - PREPARE TO DIE!!!";
+	private string s_votemessage = "Welcome to HVRDCORE HVLF-LIFE - PREPARE TO DIE!!!";
+	private string s_oldvotemessage = "Welcome to HVRDCORE HVLF-LIFE - PREPARE TO DIE!!!";
 
 	/**
 	*	Apperantly MapInit calls funcions twice
@@ -417,12 +417,12 @@ final class Diffy {
 	*	Acctually its Median-Diffy now
 	*	Too lazy to rename!
 	*/
-	private double m_flAverageVoteDifficulty = 0.5;
+	private double m_flAverageVoteDifficulty = 1.0;
 	
 	/**
 	*	Average vote Difficulty (0.0 - 1.0)
 	*/
-	private double m_flMapDifficulty = 0.5;
+	private double m_flMapDifficulty = 1.0;
 	
 	/**
 	*	Flag to check if Scheduler is running
@@ -430,13 +430,13 @@ final class Diffy {
 	private bool m_bIsSchedulerRunning = false;
 	
 	Diffy(){
-		m_flAverageVoteDifficulty = 0.5;
-		m_flMapDifficulty = 0.5;
+		m_flAverageVoteDifficulty = 1.0;
+		m_flMapDifficulty = 1.0;
 		m_bOnMapInit = false;
-		s_message = "DIFFICULTY: 50.0 Percent (Medium)";
-		s_oldmessage = "DIFFICULTY: 50.0 Percent (Medium)";
-		s_votemessage = "DIFFICULTY: \"diff status\" then open console for voteinfo. Current Difficulty is 50.0 Percent (Medium)";
-		s_oldvotemessage = "DIFFICULTY: \"diff status\" then open console for voteinfo. Current Difficulty is 50.0 Percent (Medium)";
+		s_message = "Welcome to HVRDCORE HVLF-LIFE - PREPARE TO DIE!!!";
+		s_oldmessage = "Welcome to HVRDCORE HVLF-LIFE - PREPARE TO DIE!!!";
+		s_votemessage = "Welcome to HVRDCORE HVLF-LIFE - PREPARE TO DIE!!!";
+		s_oldvotemessage = "Welcome to HVRDCORE HVLF-LIFE - PREPARE TO DIE!!!";
 		m_bIsSchedulerRunning = false;
 		ResetData();
 	}
@@ -458,7 +458,7 @@ final class Diffy {
 	}
 	
 	double getSkValue(int index){
-		uint iMax = diffBorders.length;
+		uint iMax = diffBorders.length();
 		
 		if(m_flAverageVoteDifficulty==1.0){
 			//g_PlayerFuncs.ClientPrintAll( HUD_PRINTTALK, ""+skillMatrix[index][7]+"\n" );
@@ -469,7 +469,7 @@ final class Diffy {
 			
 				if(diffBorders[i]==m_flAverageVoteDifficulty){
 					return skillMatrix[index][i];
-				}else if(diffBorders.length>i && diffBorders[i+1]>m_flAverageVoteDifficulty){
+				}else if(diffBorders.length()>i && diffBorders[i+1]>m_flAverageVoteDifficulty){
 					double min = diffBorders[i];
 					double max = diffBorders[i+1];
 					double difference = (m_flAverageVoteDifficulty-min)/(max-min);
@@ -484,7 +484,7 @@ final class Diffy {
 	}
 	
 	double getEntchangeValue(int index){
-		uint iMax = diffBorders.length;
+		uint iMax = diffBorders.length();
 		
 		if(m_flAverageVoteDifficulty==1.0){
 			return entities_multiplyer[index][7];
@@ -494,7 +494,7 @@ final class Diffy {
 			
 				if(diffBorders[i]==m_flAverageVoteDifficulty){
 					return entities_multiplyer[index][i];
-				}else if(diffBorders.length>i && diffBorders[i+1]>m_flAverageVoteDifficulty){
+				}else if(diffBorders.length()>i && diffBorders[i+1]>m_flAverageVoteDifficulty){
 					double min = diffBorders[i];
 					double max = diffBorders[i+1];
 					double difference = (m_flAverageVoteDifficulty-min)/(max-min);
@@ -633,7 +633,7 @@ final class Diffy {
 			
 			if( pPlayer is null || !pPlayer.IsConnected() ){
 				PlayerDiffData@ pData = g_PlayerDiffData[ iPlayer - 1 ];
-				pData.m_flDiffVote = -1.0;
+				pData.m_flDiffVote = 1.0;
 			}
 		}
 		
@@ -673,7 +673,7 @@ final class Diffy {
 	}
 	
 	void generateMessage(){
-		int difficultInt = int(m_flAverageVoteDifficulty*1000.0+0.5);
+		int difficultInt = int(m_flAverageVoteDifficulty*1000.0+1.00);
 		string aStr = "DIFFICULTY: Current: "+(difficultInt/10)+"."+(difficultInt%10)+" percent ";
 		string bStr = "";
 		if(m_flAverageVoteDifficulty<0.0005)
@@ -703,8 +703,8 @@ final class Diffy {
 	}
 	
 	void generateVoteMessage(){
-		int difficultInt = int(m_flAverageVoteDifficulty*1000.0+0.5);
-		string aStr = "DIFFICULTY: \"diff status\" then open console for voteinfo. Current Difficulty is "+(difficultInt/10)+"."+(difficultInt%10)+" percent ";
+		int difficultInt = int(m_flAverageVoteDifficulty*1000.0+1.00);
+		string aStr = "Welcome to HVRDCORE HVLF-LIFE - PREPARE TO DIE!!! Current Difficulty is "+(difficultInt/10)+"."+(difficultInt%10)+" percent ";
 		string bStr = "";
 		if(m_flAverageVoteDifficulty<0.0005)
 			bStr = "(Lowest Difficulty)";
@@ -1044,7 +1044,7 @@ final class Diffy {
 			}
 		}else{
 			if(playersTotal == 0) {
-				diffiSum = 0.5;
+				diffiSum = 1.0;
 			} else {
 				diffiSum = m_flAverageVoteDifficulty;
 			}
@@ -1086,7 +1086,7 @@ final class Diffy {
 			diffiSum = diffiSum / double(voters);
 		}else{
 			if(playersTotal == 0) {
-				diffiSum = 0.5;
+				diffiSum = 1.0;
 			} else {
 				diffiSum = m_flAverageVoteDifficulty;
 			}
@@ -1125,7 +1125,7 @@ final class Diffy {
 			g_PlayerFuncs.ClientPrint( m_caller, HUD_PRINTCONSOLE, aStr );
 		}
 		
-		int difficultInt = int(g_diffy.getAverageDiffy()*1000.0+0.5);
+		int difficultInt = int(g_diffy.getAverageDiffy()*1000.0+1.00);
 		string aStr = ""+(difficultInt/10)+"."+(difficultInt%10)+" percent.\n";
 		
 		g_PlayerFuncs.ClientPrint( m_caller, HUD_PRINTCONSOLE, "DIFFICULTY: - - - - - - - - - - - - - - - - -\n" );
@@ -1156,7 +1156,7 @@ final class Diffy {
 					}
 				}else{
 					if(pData.m_flLastIsAlive){
-						pPlayer.Killed(pPlayer.pev, GIB_ALWAYS);
+						pPlayer.Killed(pPlayer.pev, GIB_NEVER);
 						pData.m_flLastIsAlive = false;
 					}
 				}
@@ -1251,7 +1251,7 @@ HookReturnCode ClientDisconnect( CBasePlayer@ pPlayer ){
 	g_diffy.calcMedianDiffy();
 	
 	if(doMessage){
-		int difficultInt = int(g_diffy.getAverageDiffy()*1000.0+0.5);
+		int difficultInt = int(g_diffy.getAverageDiffy()*1000.0+1.00);
 		string aStr = ""+(difficultInt/10)+"."+(difficultInt%10)+" percent";
 		g_Game.AlertMessage( at_logged, "DIFFICULTY: Client disconnected: Median next map would be "+aStr+"\n" );
 		g_PlayerFuncs.ClientPrintAll( HUD_PRINTTALK, "DIFFICULTY: Client disconnected: Median next map would be "+aStr+"\n" );
@@ -1284,7 +1284,7 @@ void ChatCheck2( SayParameters@ m_pArgs ) {
 	if (strTest) {
 		g_diffy.m_flMessageTime = g_Engine.time + 30.0f;
 		
-		int difficultInt = int(g_diffy.getAverageDiffy()*1000.0+0.5);
+		int difficultInt = int(g_diffy.getAverageDiffy()*1000.0+1.00);
 		string aStr = g_diffy.getOldMessage()+" Median next map would be "+(difficultInt/10)+"."+(difficultInt%10)+" percent.\n";
 		
 		g_Game.AlertMessage( at_logged, aStr );
@@ -1326,7 +1326,7 @@ void ChatCheck2( SayParameters@ m_pArgs ) {
 			
 			g_diffy.calcMedianDiffy();
 			
-			int difficultInt = int(g_diffy.getAverageDiffy()*1000.0+0.5);
+			int difficultInt = int(g_diffy.getAverageDiffy()*1000.0+1.00);
 			string aStr = ""+(difficultInt/10)+"."+(difficultInt%10)+" percent";
 			string bStr = "";
 			
@@ -1357,7 +1357,7 @@ void ChatCheck2( SayParameters@ m_pArgs ) {
 			
 			g_diffy.calcMedianDiffy();
 			
-			int difficultInt = int(g_diffy.getAverageDiffy()*1000.0+0.5);
+			int difficultInt = int(g_diffy.getAverageDiffy()*1000.0+1.00);
 			string aStr = ""+(difficultInt/10)+"."+(difficultInt%10)+" percent";
 
 			string bStr = "DIFFICULTY: \"" + pPlayer.pev.netname +
