@@ -438,7 +438,7 @@ fortnite mikk/fortnite.mp3
 fuck1 mikk/fuck1.mp3
 gay2 mikk/gay2.mp3
 good1 mikk/good1.mp3
-gotcha mikk/gotcha.mp3
+gotcha1 mikk/gotcha1.mp3
 green mikk/green.ogg
 hello1 mikk/hello1.mp3
 honestly mikk/honestly.mp3
