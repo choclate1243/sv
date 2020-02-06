@@ -508,7 +508,7 @@ ascension moxxi/ascension.ogg
 boss3 moxxi/boss3.ogg
 dying moxxi/dying.ogg
 die1 moxxi/die1.ogg
-st moxxi/ST.ogg
+st moxxi/st.ogg
 boooom moxxi/boooom.ogg
 ak47 moxxi/ak47.ogg
 blacklung moxxi/blacklung.ogg
