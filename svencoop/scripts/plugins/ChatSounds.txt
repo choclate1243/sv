@@ -658,3 +658,5 @@ slav moxxi/slav.ogg
 splashing moxxi/splashing.ogg
 ducktales moxxi/ducktales.ogg
 dank moxxi/dank.ogg
+wasted moxxi/wasted.ogg
+ohfuck moxxi/ohfuck.ogg
