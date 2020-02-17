@@ -660,3 +660,4 @@ ducktales moxxi/ducktales.ogg
 dank moxxi/dank.ogg
 wasted moxxi/wasted.ogg
 ohfuck moxxi/ohfuck.ogg
+swamp moxxi/swamp.ogg
