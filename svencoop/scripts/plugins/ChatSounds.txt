@@ -630,6 +630,7 @@ babanumber5 moxxi/babanumber5.ogg
 cjnoises moxxi/cjnoises.ogg
 goodnight moxxi/goodnight.ogg
 hey moxxi/hey.ogg
+muerte moxxi/muerte.ogg
 pufferrave moxxi/pufferrave.ogg
 fight3 moxxi/fight3.ogg
 heckLast Tuesday at 3:32 PM
