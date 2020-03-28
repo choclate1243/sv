@@ -633,7 +633,6 @@ hey moxxi/hey.ogg
 muerte moxxi/muerte.ogg
 pufferrave moxxi/pufferrave.ogg
 fight3 moxxi/fight3.ogg
-heckLast Tuesday at 3:32 PM
 quietdown moxxi/quietdown.ogg
 panicmode moxxi/panicmode.ogg
 fish moxxi/fish.ogg
