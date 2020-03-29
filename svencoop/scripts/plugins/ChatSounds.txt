@@ -732,3 +732,4 @@ tequila moxxi/tequila.ogg
 stfu69 moxxi/stfu69.ogg
 sugoi2 moxxi/sugoi2.ogg
 slav1 moxxi/slav1.ogg
+puta moxxi/puta.ogg
