@@ -734,3 +734,4 @@ sugoi2 moxxi/sugoi2.ogg
 slav1 moxxi/slav1.ogg
 puta moxxi/puta.ogg
 slayer moxxi/slayer.ogg
+hhhhh moxxi/hhhhh.ogg
