@@ -410,7 +410,6 @@ nouzazoun hs/chatsounds/mikk-m/nouzazoun-m.ogg
 nuke hs/chatsounds/moxxi-m/nuke-m.ogg
 number9 hs/chatsounds/mikk/number9.ogg
 nuts hs/chatsounds/mikk-m/yijaja-m.ogg
-nword hs/chatsounds/moxxi-m/nword-m.ogg
 ohfuck hs/chatsounds/moxxi-m/ohfuck-m.ogg
 ohhgod hs/chatsounds/mikk-m/ohhgod-m.ogg
 ohhno hs/chatsounds/mikk-m/jojo_ohno-m.ogg
