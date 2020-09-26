@@ -3,12 +3,12 @@ August-September 2020
 
 Minimized sounds are appended with -m in their filename and they are placed in directories also appended with an -m
 
-From 591 files to 592 files:
+From 591 files to 591 files:
 526 new re-encoded (1 unused that has been added)
 66 old
 
 Old file size of all sounds: 144mb
-New file size of all sounds: 55mb
+New file size of all sounds: 54mb
 
 
 Four final directories are present:
@@ -438,7 +438,7 @@ noice-m from .OGG 53.93kb to .OGG 25.32kb Quality 0
 nomames-m from .OGG 99.88kb to .OGG 42.62kb Quality 0
 nostalgia-m from .OGG 238.55kb to .OGG 198.41kb Quality 0
 nuke-m from .OGG 311.39kb to .OGG 138.24kb Quality 0
-nword-m from .OGG 873.34kb to .OGG 523kb Quality 0 New sound, previously missing the file but entry was in Chatsounds.txt
+nword-m from .OGG 873.34kb to .OGG 523kb Quality 0 Too long, was removed after added back REMOVED
 ohfuck-m from .OGG 276.33kb to .OGG 147.62kb Quality 0
 ohyeah-m from .OGG 117.19kb to .OGG 47.86kb Quality 0
 okboomer-m from .OGG 28.07kb to .OGG 17.79kb Quality 0
