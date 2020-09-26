@@ -4,7 +4,7 @@ August-September 2020
 Minimized sounds are appended with -m in their filename and they are placed in directories also appended with an -m
 
 From 591 files to 591 files:
-526 new re-encoded (1 unused that has been added)
+525 new re-encoded 
 66 old
 
 Old file size of all sounds: 144mb
