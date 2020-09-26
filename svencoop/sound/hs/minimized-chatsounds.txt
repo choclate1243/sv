@@ -1,0 +1,670 @@
+Chatsound minimization effort
+August-September 2020
+
+Minimized sounds are appended with -m in their filename and they are placed in directories also appended with an -m
+
+From 591 files to 592 files:
+526 new re-encoded (1 unused that has been added)
+66 old
+
+Old file size of all sounds: 144mb
+New file size of all sounds: 55mb
+
+
+Four final directories are present:
+mikk (Pre-Moxxi sounds that are not minimized, dating from January 2018 up to January 2020)
+mikk-m (Pre-Moxxi sounds that were minimized, dating from January 2018 up to January 2020)
+moxxi (Post-Moxxi sounds that are not minimized, dating from January 2020 up to 2020 March)
+moxxi-m (Post-Moxxi sounds that were minimized, dating from January 2020 up to 2020 March)
+
+indv = Individually minimized 
+batc = Batch minimized
+authomx = Sounds were authored to Chatsounds.txt under format of mikk/moxxi folders
+cc = Verified all sounds work
+[##] = number of sounds started with, before downsample was done
+(## new + ## old) = Makeup of the sounds, how many were minimized into new files and how many old were kept
+<##> = Final count of all sounds in release
+{##} = Amount of sounds removed
+
+[Directory: sound] indv [52] (44 new + 8 old) <52> authomx cc
+allclear-m from .WAV 58kb to .OGG 16kb Quality 0
+america-m from .OGG 54kb to .OGG 25kb Quality 0
+atatata-m from .OGG 44kb to .OGG 29kb Quality 0
+awoo-m from .OGG 25kb to .OGG 13k Quality 0
+balls-m from .WAV 98kb to .OGG 11kb Quality 0
+brababa-m from .WAV 56b to .OGG 9kb Quality 0
+cena-m from .WAV 325kb to .OGG 37kb Quality 0
+chew-m from .OGG 24kb to .OGG 17kb Quality 0
+clap-m from .WAV 269kb to .OGG 31kb Quality 1
+cyka-m from .OGG 15kb to .OGG 9kb Quality 0
+daway PLACEHOLDER <Reason: Quality loss>::
+failiture-m from .WAV 211kb to .OGG 42kb Quality 0
+fml-m from .OGG 33kb to .OGG 18kb Quality 0
+freezer-m from .OGG 135kb to .OGG 61kb Quality 0
+gameoveryeah PLACEHOLDER <Reason: Quality loss>::
+gatorade PLACEHOLDER <Reason: Quality loss>::
+godlike-m from .WAV 76kb to .OGG 11kb Quality 0
+haha2-m from .WAV 112kb to .OGG 34k Quality 0
+headshot1-m from WAV 80kb to .OGG 11kb Quality 0
+heaven-m from .WAV 554kb to .OGG 52kb Quality 0
+hohoho-m from .OGG 196kb to .OGG 109kb Quality 0
+holyshit-m from .WAV 163kb to .OGG 19kb Quality 0
+hotaliensex PLACEHOLDER <Reason: Quality loss>::
+hrs PLACEHOLDER <Reason: Quality loss>::
+jurassic-m from .OGG 587kb to .OGG 300kb Quality 2
+kamehameha-m from .OGG 262kb to .OGG 152kb Quality 2
+kawaii-m from .WAV 192kb to .OGG 18kb Quality 0
+killingspree-m from .WAV 90kb to .OGG 12kb Quality 0
+kombat PLACEHOLDER <Reason: Quality loss>::
+konichiwa-m from .WAV 13kb to .6kb Quality 0
+minecraft-m from. WAV 853kb to .OGG 61kb Quality 0
+nani-m from .WAV 103kb to .OGG 10kb Quality 0
+noooo-m from .WAV 68kb to .OGG 10kb Quality 0
+nope-m from .WAV 14kb to .OGG 5kb Quality 0
+number9 PLACEHOLDER <Reason: Quality loss>::
+omaewa-m from .WAV 198kb to .OGG 17kb Quality 0
+pirates-m from .OGG 186kb to .OGG 111kb Quality 0
+prick-m from .WAV 62kb to .OGG 10kb Quality 0
+run-m from .WAV 897kb to .OGG 86kb Quality 3
+sad4-m from .WAV 2005kb to .OGG 153kb Quality 1
+sad69 PLACEHOLDER <Reason: Quality loss>::
+sape-m from .WAV 114kb to .OGG 14kb Quality 0
+shutup-m from .WAV 107kb to .OGG 15kb Quality 0
+sueltame-m from .WAV 395kb to .OGG 31kb Quality 0
+suicide2-m from .WAV 84kb to .OGG 25kb Quality 0
+surprise-m from .WAV 42kb to .OGG 9kb Quality 0
+swed-m from .WAV 76kb to .OGG 11kb Quality 0
+tengomiedo-m from .WAV 413kb to .OGG 40kb Quality 2
+ufo-m from .OGG 185kb to .OGG 109kb Quality 0
+ultra3-m from .OGG 1110kb to .OGG 194kb Quality 1
+wow-m from .WAV 73kb to .OGG 11kb Quality 0
+wtf0-m from .WAV 62kb to .OGG 11kb Quality 0 RENAMED from wtf3-m (Duplicate entry exists during merger)
+
+
+[Directory: sound/mikk] indv [189] (145 new + 41 old) <186> {3} authomx cc
+!-m from .WAV 413kb to .OGG 17kb Quality 0
+90s-m from .OGG 664kb to .OGG 330kb Quality 3
+again PLACEHOLDER <Reason: Quality loss>::
+alia-m from .OGG 333kb to .OGG 64kb Quality 0
+awaken-m from .WAV 4,186kb to .OGG 298kb Quality 2
+babaisyou PLACEHOLDER <Reason: Quality loss>::
+baka PLACEHOLDER <Reason: Quality loss>::
+bap-m from .MP3 33kb to .OGG 14kb Quality 0
+beans-m from .WAV 283kb to .OGG 15kb Quality 0
+bees PLACEHOLDER <Reason: Quality loss>::
+benny1-m from .OGG 1,429kb to .OGG 357kb Quality 1
+big-m from .MP3 77kb to .OGG 30kb Quality 0
+bitch-m from .MP3 47kb to .OGG 16kb Quality 0
+boris from .MP3 337kb to .OGG 195kb Quality 3
+brr PLACEHOLDER <Reason: Quality loss>::
+bruh PLACEHOLDER <Reason: Quality loss>::
+bwa-m from .MP3 34kb to .OGG 10kb Quality 0
+cancer-m from .MP3 120kb to .OGG 57kb Quality 2
+captain-m from .MP3 266kb to .OGG 86kb Quality 0
+cheating-m from .MP3 43kb to .OGG 16kb Quality 0
+cheeki-m from .MP3 72kb to .OGG 24kb Quality 0
+continue2 PLACEHOLDER <Reason: Quality loss>::
+crabrave PLACEHOLDER <Reason: Quality loss>::
+crazy-m from .MP3 172kb to .OGG 52kb Quality 0
+cries-m from .WAV 690kb to .OGG 31kb Quality 0
+cries1-m from .MP3 142kb to .OGG 44kb Quality 0
+cykaa-m from .MP3 248kb to .OGG 122kb Quality 3
+damage-m from .MP3 37kb to .OGG 14kb Quality 0
+damare-m from .OGG 391kb to .OGG 103kb Quality 0
+damnn-m from .MP3 50kb to .OGG 19kb Quality 0
+damnson-m from .MP3 63kb to .OGG 18kb Quality 0
+dayum-m from .MP3 47kb to .OGG 15kb Quality 0
+deeznut-m from .MP3 173kb to .OGG 53kb Quality 0
+dejavu-m from .OGG 425kb to .OGG 220kb Quality 3
+despacitod from .GG 496kb to .OGG 245kb Quality 3
+die2 PLACEHOLDER <Reason: Already lowest possible size>::
+education-m from .MP3 74kb to .OGG 26kb Quality 0
+empty-m from .MP3 72kb to .OGG 26kb Quality 0
+faast-m from .MP3 45kb to .OGG 16kb Quality 0
+fbi-1m from .WAV 1,229kb to .OGG 66kb Quality 0
+fbi-m from .WAV 517kb to .OGG 24kb Quality 0
+flute2-m from .OGG 235kb to .OGG 63kb Quality 0
+fortnite-m from .MP3 185kb to .OGG 57kb Quality 0
+fuck1-m from .MP3 205kb to .OGG 67kb Quality 0
+fuckyeah-m from .OGG 73kb to .OGG 36kb Quality 0
+gasgasgag-m from .OGG 1,201kb to .OGG 451kb Quality 3
+gay1 PLACEHOLDER <Reason: Quality loss>::
+gay2-m from .MP3 159kb to .OGG 72kb Quality 2
+gayest-m from .OGG 158kb to .OGG 67kb Quality 0
+good1-m from .OGG 382kb to .OGG 199kb Quality 2
+gotcha1-m from .MP3 19kb to .OGG 9kb Quality 0
+green PLACEHOLDER <Reason: Quality loss>::
+greetings PLACEHOLDER <Reason: Quality loss>::
+harder-m from .OGG 77kb to .OGG 22kb Quality 0
+hello1-m from .MP3 39kb to .OGG 14kb Quality 0
+hellouda PLACEHOLDER <Reason: Quality loss>::
+helpme PLACEHOLDER <Reason: Quality loss>::
+helpme1-m from .WAV 451kb to .OGG 25kb Quality 0
+hitler-m from .OGG 263kb to .OGG 106kb Quality 0
+holyshit1-m from .OGG 71kb to .OGG 19kb Quality 0 QA-Loss1 Observed loss in quality but permissible
+holyshit2-m from .WAV 384kb to .OGG 31kb Quality 0
+holyshit3-m from .WAV 458kb to .OGG 26kb Quality 0
+holyshit4 REMOVE <Reason: Duplicate of holyshit2>:: REMOVED
+homemmacaco-m from .OGG 217kb to .OGG 48kb Quality 0
+honestly-m from .MP3 81kb to .OGG 29kb Quality 0
+honestlyy-m from .MP3 225kb to .OGG 61kb Quality 0
+howard-m from .OGG 787kb to .OGG 339kb Quality 0
+idiot-m from .OGG 209kb to .OGG 98kb Quality 2
+imgay PLACEHOLDER <Reason: Quality loss>::
+imgaymp3-m from .OGG 1,754kb to .OGG 442kb Quality 2
+impossible-m from .OGG 622kb to .OGG 190kb Quality 0
+jaws-m from .OGG 1,504kb to .OGG 326kb Quality 2
+jeff-m from .MP3 30kb to .OGG 11kb Quality 0
+jouj-m from .MP3 43kb to .OGG 15kb Quality 0
+kaleun-m from .MP3 440kb to .OGG 274kb Quality 1
+kids-m from .MP3 32kb to .OGG 14kb Quality 0
+konodioga-m from .WAV 3,571kb to .OGG 395kb Quality 2
+lambsauce PLACEHOLDER <Reason: Quality loss>::
+lawnorder-m from .OGG 86kb to .OGG 28kb Quality 0
+lemmesmash PLACEHOLDER <Reason: Quality loss>::
+lewd69 from .OGG 136kb to .OGG 41kb Quality 3
+lool-m from .MP3 214kb to .OGG 62kb Quality 0
+macaco-m from .OGG 54kb to .OGG 14kb Quality 0
+memes-m from .MP3 72kb to .OGG 24kb Quality 0
+milk-m from .OGG 62kb to .OGG 19kb Quality 0
+million-m from .MP3 550kb to .OGG 220kb Quality 3
+minicar-m from .OGG 1,276kb to .OGG 361kb Quality 2
+mudamuda-m from .WAV 927kb to .OGG 56KB Quality 1
+mugaora-m from .WAV 1,405kb to .OGG 121kb Quality 2
+nani!-m from .WAV 325kb to .OGG 22kb Quality 0
+negan-m from .MP3 28kb to .OGG 11kb Quality 0
+nep69 PLACEHOLDER <Reason: Quality loss>::
+nepgya69 PLACEHOLDER <Reason: Quality loss>::
+nepgyaa69 PLACEHOLDER <Reason: Quality loss>::
+nepgyaaa69 PLACEHOLDER <Reason: Quality loss>::
+nepnep69-m from .OGG 47kb to .OGG 18kb Quality 0
+nepslap-m from .OGG 161kb to .OGG 58kb Quality 0
+nepslap1-m from .WAV 2,057kb to .OGG 202kb Quality 2
+nepu!69-m from .OGG 85kb to .OGG 32kb Quality 3
+nepu1 PLACEHOLDER <Reason: Quality loss>::
+nepu69-m from .OGG 49kb to .OGG 13kb quality 0
+nepunepu169 PLACEHOLDER <Reason: Quality loss>::
+nepunepu2-m from .OGG 209kb to .OGG 42kb Quality 0
+nepunepu69-m from .OGG 51kb to .OGG 20kb Quality 0
+nepunepunepu-m from .OGG 325kb to .OGG 161kb Quality 3
+nicee-m from .WAV 389kb to .OGG 29kb Quality 2
+noirescream PLACEHOLDER <Reason: Quality loss>::
+nouzazoun from .MP3 87kb to .OGG 27kb Quality 0
+ohhgod-m from .OGG 90kb to .OGG 22kb Quality 0
+ohhno1 REMOVE <Reason: Duplicate of ohhno4>:: REMOVED
+ohhno2-m from .OGG 107kb to .OGG 24kb Quality 0
+ohhno3-m from .WAV 499kb to .OGG 28kb Quality 0
+ohhno4 from .WAV 480kn to .OGG 26kb Quality 0
+ohhshit from .WAV 519kb to .OGG 27kb Quality 0
+ohyes-m from .OGG 281kb to .OGG 14kb Quality 0
+omg-m from .WAV 544kb to .OGG 34kb Quality 0
+omg1 REMOVE <Reason: Duplicate of omg>:: REMOVED
+omg2-m from .MP3 120kb to .OGG 41kb Quality 0
+omg3-m from .MP3 65kb to .OGG 19kb Quality 0
+omg4-m from .MP3 166kb to .OGG 45kb Quality 0
+onichan-m from .WAV 517kb to .OGG 22kb Quality 0
+oof!-m from .OGG 64kb to .OGG 30kb Quality 0
+oof1 PLACEHOLDER <Reason: Quality loss>::
+oof2-m from .OGG 137kb to .OGG 80kb Quality 0
+oofhorror-m from .OGG 179kb to .OGG 95kb Quality 0
+oofmusic-m from .MP3 70kb to .OGG 26kb Quality 0
+ooof-m from .OGG 46kb to .OGG 26kb Quality 0
+oraora-m from .OGG 266kb to .OGG 149kb Quality 2
+overwatch-m from .OGG 780kb to .OGG 218kb Quality 1
+peaches PLACEHOLDER <Reason: Quality loss>::
+picked-m from .MP3 46kb to .OGG 16kb Quality 0
+pizzatime PLACEHOLDER <Reason: Quality loss>::
+prettygood PLACEHOLDER <Reason: Quality loss>::
+pudding PLACEHOLDER <Reason: Quality loss>::
+quema PLACEHOLDER <Reason: Already lowest possible size>::
+reclamation-m from .OGG 34kb to .OGG 16kb Quality 0
+roach-m from .MP3 162kb to .OGG 47kb Quality 0
+rocket-m from .MP3 45kb to .OGG 17kb Quality 0
+running PLACEHOLDER <Reason: Quality loss>::
+running2 PLACEHOLDER <Reason: Quality loss>::
+sad5.ogg PLACEHOLDER <Reason: Quality loss>::
+samsung-m from .OGG 1,348kb to .OGG 351kb Quality 2
+samsung1-m from .OGG 1,622kb to .OGG 352kb Quality 2
+sate-m from .OGG 66kb to .OGG 15kb Quality 0
+sayonara from .OGG 132kb to .OGG 34kb Quality 0
+scream1-m from .WAV 1,077kb to .OGG 55kb Quality 0
+scream2-m from .MP3 32kb to .OGG 11kb Quality 0 (Typo? Change from sceam2 to scream2)
+see-m from .MP3 18kb to .OGG 8kb Quality 0
+siren2-m from .OGG 359kb to .OGG 103kb Quality 0
+skeletons-m from .OGG 430kb to .OGG 85kb Quality 0
+skidoodle-m from .OGG 400kb to .OGG 91kb Quality 2
+stfu1-m from .WAV 862kb to .OGG 42kb Quality 0
+stfu2-m from .OGG 80kb to .OGG 16kb Quality 0
+stfu3-m from .OGG 198kb to .OGG 40kb Quality 0
+stfu4-m from .MP3 47kb to .OGG 17kb Quality 0
+stop-m from .MP3 58kb to .OGG 18kb Quality 0
+succ PLACEHOLDER <Reason: Quality loss>::
+suhdude PLACEHOLDER <Reason: Quality loss>::
+swe-m from .MP3 572.kb to .OGG 187kb Quality 0
+sweg-m from .MP3 100kb to .OGG 33kb Quality 0
+terminator-m from .MP3 409kb to .OGG 195kb Quality 2
+tg-m from .MP3 79kb to .OGG 26kb Quality 0
+thisdude-m from .OGG 516kb to .OGG 108kb Quality 0
+thisdude1-m from .MP3 263kb to .OGG 111kb Quality 3
+those-m from .MP3 104kb to .OGG 33kb Quality 0
+thot-m from .MP3 50kb to .OGG 16kb Quality 0
+tp-m from .MP3 19kb to .OGG 9kb Quality 0
+trash-m from .MP3 66kb to .OGG 24kb Quality 0
+triggered-m from .OGG 274kb to .OGG 60kb Quality 0
+tyler1-m from .OGG 359kb to .OGG 71kb Quality 0
+wack-m from .MP3 321kb to .OGG 86kb Quality 0
+waiting-m from .OGG 136kb to .OGG 36kb Quality 0
+watch-m from .MP3 65kb to .OGG 36kb Quality 5
+wazzap1 PLACEHOLDER <Reason: Quality loss>::
+whatsup-m from .MP3 40kb to .OGG 14kb Quality 0
+whisper PLACEHOLDER <Reason: Quality loss>::
+who-m from .MP3 56kb to .OGG 20kb Quality 0
+wii PLACEHOLDER <Reason: Quality loss>::
+windows-m from .MP3 79kb to .OGG 25kb Quality 0
+wit-m from .MP3 87kb to .OGG 28kb Quality 0
+wryyy PLACEHOLDER <Reason: Quality loss>::
+wtf2 PLACEHOLDER <Reason: Quality loss>::
+wtf3-m from .OGG 111kb to .OGG 35kb Quality 0
+yehboy-m from .MP3 51kb to .OGG 19kb Quality 0
+yehboyy-m from .MP3 80kb to .OGG 59kb Quality 5
+yey-m from .MP3 15kb to .OGG 8kb Quality 0
+yooo PLACEHOLDER <Reason: Quality loss>::
+youuu from .OGG 14kb to .OGG 10kb Quality 0
+zawarudo-m from .WAV 737kb to .OGG 41kb Quality 0
+
+[Directory: sound/4ways] indv [1] (1 new) <1> authomx cc
+die-m from .WAV 31kb to .OGG 7kb Quality 0
+
+[Directory: sound/ambience] indv [1] (1 old) <1> authomx (Old directory kept)
+liftmuzak PLACEHOLDER <Reason: Must stay .WAV due to loss of loop node soundcue and is used within op4l so must reside in /ambience>::
+
+[Directory: sound/chatsounds] indv [8] (6 new + 2 old) <8> authomx cc
+ayesir-m from .MP3 45kb to .OGG 16kb Quality 0
+dawei PLACEHOLDER <Reason: Quality loss>::
+gmi2 PLACEHOLDER <Reason: Quality loss>::
+jiji-m from .MP3 80kb to .OGG 44kb Quality 0
+jojo_nono-m from .MP3 47kb to .OGG 17kb Quality 0
+jojo_ohmygod-m from .MP3 80kb to .OGG 28kb Quality 0
+jojo_ohno-m from .MP3 36kb to .OGG 14kb Quality 0
+jojo_yesyes-m from .MP3 100kb to .OGG 55kb Quality 4
+
+[Directory: sound/gta2] indv [1] (1 new) <1> authomx cc
+faces-m from .OGG 90kb to .OGG 39kb Quality 0
+
+[Directory: sound/keen] indv [5] (4 new + 1 old) <5> authomx cc 
+apunono-m from .WAV 52kb to .OGG 13kb Quality 0
+disneyland-m from .WAV 39kb to .OGG 8kb Quality 0
+dukechristmas-m from .WAV 399kb to .OGG 19kb Quality 0
+goodbyetele-m from .WAV 28kb to .OGG 9kb Quality 0
+sor2 PLACEHOLDER <Reason: Quality loss>::
+
+[Directory: sound/keenzone] indv [1] (1 new) <1> authomx cc
+x2s_1-m from .WAV 136kb to .OGG 39kb Quality 0
+
+[Directory: sound/mikutron] indv [3] (2 new + 1 old) <3> authomx cc
+doorstuck-m from .OGG215kb to .OGG 161kb Quality 0
+oof PLACEHOLDER <Reason: Quality loss>::
+openfire-m from .OGG 25kb to .OGG 18kb Quality 0
+
+[Directory: sound/mikutron/chatsounds] indv [7] (5 new + 2 old) <7> authomx cc
+ecruto-m from .WAV 8kb to .OGG 6kb Quality 0
+extrathicc PLACEHOLDER <Reason: Quality loss>::
+ez-m from .WAV 229kb to .OGG 18kb Quality 0
+GTA-m from .WAV 119kb to .OGG 18kb Quality 0
+nico_nico_nii-m from .WAV 96kb to .OGG 14kb Quality 0
+riders1 PLACEHOLDER <Reason: Quality loss>::
+whathappend-m from .WAV 52kb to .OGG 8kb Quality 0
+
+[Directory: sound/misc/motv] indv [12] (12 new) <12> authomx cc
+aesthetic-m from .MP3 345kb to .OGG 313kb Quality 3
+enthusiasm-m from .MP3 339kb to .OGG 152kb Quality 0
+error-m from .MP3 118kb to .OGG 48kb Quality 0
+flute-m from .MP3 228kb to .OGG 95kb Quality 0
+followthetrain-m from .MP3 45kb to .OGG 27kb Quality 0
+how_could_this-m from .MP3 132kb to .OGG 54kb Quality 0
+japaneseanimes-m from .MP3 27kb to .OGG 21kb Quality 0
+mlg2-m from .MP3 45kb to .OGG 20kb Quality 0
+nogod-m from .MP3 99kb to .OGG 48kb Quality 0
+ohmygah-m from .MP3 23kb to .OGG 21kb Quality 2
+spin_me-m from .MP3 113kb to .OGG 61kb Quality 0
+teedus-m from .MP3 118kb to .OGG 56kb Quality 0
+
+
+[Directory: sound/moxxi] batc [169] (167 new + 2 old) (+1 new unused sound) <170> authomx cc 
+aesthetic1-m from .OGG 678.65kb to .OGG 300.64kb Quality 0
+aiur-m from .OGG 19.17kb to .OGG 14.89kb Quality 0
+ak47-m from .OGG 96.08kb to .OGG 44.24kb Quality 0
+ambience2-m from .OGG 262.14kb to .OGG 253.43kb Quality 0
+apeman-m from .OGG 110.22kb to .OGG 60.98kb Quality 0
+argh1-m from .OGG 47.32kb to .OGG 22.69kb Quality 0
+arma-m from .OGG 27.88kb to .OGG 20.9kb Quality 0
+armacham-m from .OGG 201.49kb to .OGG 148.15kb Quality 0
+arrow-m from .OGG 48.17kb to .OGG 29.24kb Quality 0
+ascension-m from .OGG 183.39kb to .OGG 73.25kb Quality 0
+autistic-m from .OGG 39.6kb to .OGG 21.69kb Quality 0
+awful-m from .OGG 140.57kb to .OGG 71.1kb Quality 0
+babanumber5-m from .OGG 714.9kb to .OGG 295.19kb Quality 0
+banana-m from .OGG 154.55kb to .OGG 48.1kb Quality 0
+beanos-m from .OGG 154.27kb to .OGG 104.44kb Quality 0
+bhop-m from .OGG 202.52kb to .OGG 95.16kb Quality 0
+bird-m from .OGG 694.46kb to .OGG 271.99kb Quality 0
+blacklung-m from .OGG 162.92kb to .OGG 32.71kb Quality 0
+boooom-m from .OGG 55.55kb to .OGG 18.3kb Quality 0
+boss2-m from .OGG 415.18kb to .OGG 251.55kb Quality 0
+boss3-m from .OGG 770.52kb to .OGG 440.7kb Quality 0
+boss4-m from .OGG 402.02kb to .OGG 208.24kb Quality 0
+bp-m from .OGG 730.14kb to .OGG 307.38kb Quality 0
+brainpower-m from .OGG 341.13kb to .OGG 176.36kb Quality 0
+carrot-m from .OGG 17.08kb to .OGG 9.03kb Quality 0
+chase-m from .OGG 632.81kb to .OGG 273.14kb Quality 0
+chrischan-m from .OGG 407.95kb to .OGG 68.52kb Quality 0
+cjnoises-m from .OGG 483.65kb to .OGG 258.51kb Quality 0
+clean-m from .OGG 189.53kb to .OGG 115.36kb Quality 0
+closing-m from .OGG 688.64kb to .OGG 320.2kb Quality 0
+closing2-m from .OGG 76.14kb to .OGG 49.19kb Quality 0
+clown-m from .OGG 322.78kb to .OGG 117.77kb Quality 0
+coffee-m from .OGG 137.29kb to .OGG 78.37kb Quality 0
+coffee1-m from .OGG 225.62kb to .OGG 43.42kb Quality 0
+coffee2-m from .OGG 355.64kb to .OGG 54.31kb Quality 0
+colonel-m from .OGG 177.91kb to .OGG 88.97kb Quality 0
+cooming1-m from .OGG 139.11kb to .OGG 75.99kb Quality 0
+country-m from .OGG 333.67kb to .OGG 192.53kb Quality 0
+cries2-m from .OGG 107.91kb to .OGG 60.21kb Quality 0
+criminal-m from .OGG 217.33kb to .OGG 109.57kb Quality 0
+crossroads-m from .OGG 547.67kb to .OGG 206.07kb Quality 0
+dank-m from .OGG 629.95kb to .OGG 279.48kb Quality 0
+denial-m from .OGG 227.11kb to .OGG 121.84kb Quality 0
+despacito-m from .OGG 878.5kb to .OGG 182.78kb Quality 0
+die1-m from .OGG 119.87kb to .OGG 70.91kb Quality 0
+ditb-m from .OGG 1009.11kb to .OGG 496.55kb Quality 0
+dontyou-m from .OGG 44.64kb to .OGG 19.13kb Quality 0
+door1-m from .OGG 26.88kb to .OGG 22.36kb Quality 0
+doot-m from .OGG 10.94kb to .OGG 6.77kb Quality 0
+ducktales-m from .OGG 274.54kb to .OGG 99.76kb Quality 0
+dying PLACEHOLDER <Reason: Quality loss>::
+endgame-m from .OGG 920.55kb to .OGG 415.14kb Quality 0
+ending-m from .OGG 64.78kb to .OGG 38.18kb Quality 0
+enormous-m from .OGG 610.97kb to .OGG 289.81kb Quality 0
+explosion-m from .OGG 24.5kb to .OGG 12.32kb Quality 0
+fall2-m from .OGG 50.32kb to .OGG 23.26kb Quality 0
+father-m from .OGG 236.65kb to .OGG 126.86kb Quality 0
+fight1-m from .OGG 791.36kb to .OGG 249.2kb Quality 0
+fight2-m from .OGG 947.53kb to .OGG 365.38kb Quality 0
+fight3-m from .OGG 740.29kb to .OGG 327.05kb Quality 0
+fight4-m from .OGG 647.72kb to .OGG 323.08kb Quality 0
+fish-m from .OGG 308.41kb to .OGG 134.37kb Quality 0
+frananero-m from .OGG 76.27kb to .OGG 34.07kb Quality 0
+freeman1-m from .OGG 394.26kb to .OGG 233.65kb Quality 0
+gayluigi-m from .OGG 42.82kb to .OGG 13.69kb Quality 0
+getfucked-m from .OGG 33.71kb to .OGG 15.53kb Quality 0
+glocks-m from .MP3 28.61kb to .OGG 16.62kb Quality 0
+glocks2-m from .MP3 36.37kb to .OGG 20.36kb Quality 0
+goodnight-m from .OGG 308.82kb to .OGG 120.48kb Quality 0
+green2-m from .OGG 88.98kb to .OGG 47.32kb Quality 0
+green3-m from .OGG 209.69kb to .OGG 90.37kb Quality 0
+greencall-m from .OGG 123.51kb to .OGG 69.58kb Quality 0
+hahaha-m from .OGG 162.18kb to .OGG 74.72kb Quality 0
+hey-m from .OGG 172.22kb to .OGG 55.99kb Quality 0
+highground-m from .OGG 151.06kb to .OGG 61.89kb Quality 0
+holyshit5-m from .OGG 69.36kb to .OGG 28.6kb Quality 0
+horabuena-m from .OGG 76.71kb to .OGG 30.9kb Quality 0
+horror1-m from .OGG 280.08kb to .OGG 115.77kb Quality 0
+horror2-m from .OGG 377.77kb to .OGG 139.02kb Quality 0
+huegh-m from .OGG 13.64kb to .OGG 7.42kb Quality 0
+hurt-m from .OGG 8.29kb to .OGG 6.67kb Quality 0
+imonfire-m from .OGG 134.4kb to .OGG 86.8kb Quality 0
+jackiechan-m from .OGG 81.99kb to .OGG 21.84kb Quality 0
+jajajaja-m from .OGG 117.45kb to .OGG 45.59kb Quality 0
+joj-m from .OGG 8.92kb to .OGG 7.46kb Quality 0
+jump-m from .OGG 240.49kb to .OGG 79.63kb Quality 0
+killme-m from .OGG 242.8kb to .OGG 64.15kb Quality 0
+king-m from .OGG 464.53kb to .OGG 109.12kb Quality 0
+lift2-m from .OGG 560.61kb to .OGG 217.11kb Quality 0
+lmao1-m from .OGG 141.67kb to .OGG 74.09kb Quality 0
+lolcough-m from .OGG 68.34kb to .OGG 46.04kb Quality 0
+loud-m from .OGG 127.7kb to .OGG 63.52kb Quality 0
+machinex6-m from .OGG 91.84kb to .OGG 86.65kb Quality 0
+mariachi-m from .OGG 240.11kb to .OGG 175.59kb Quality 0
+medic1-m from .OGG 88.3kb to .OGG 39.44kb Quality 0
+meow-m from .OGG 28.22kb to .OGG 17.98kb Quality 0
+monke-m from .OGG 79.24kb to .OGG 64.28kb Quality 0
+moskau-m from .OGG 310.74kb to .OGG 201.18kb Quality 0
+mrfreeman-m from .OGG 203.08kb to .OGG 111.08kb Quality 0
+mukatta-m from .OGG 87.59kb to .OGG 47.59kb Quality 0
+nerf-m from .OGG 56.12kb to .OGG 34.82kb Quality 0
+niggaaa-m from .OGG 52.86kb to .OGG 25.49kb Quality 0
+niggurds-m from .OGG 44.85kb to .OGG 31.1kb Quality 0
+noice-m from .OGG 53.93kb to .OGG 25.32kb Quality 0
+nomames-m from .OGG 99.88kb to .OGG 42.62kb Quality 0
+nostalgia-m from .OGG 238.55kb to .OGG 198.41kb Quality 0
+nuke-m from .OGG 311.39kb to .OGG 138.24kb Quality 0
+nword-m from .OGG 873.34kb to .OGG 523kb Quality 0 New sound, previously missing the file but entry was in Chatsounds.txt
+ohfuck-m from .OGG 276.33kb to .OGG 147.62kb Quality 0
+ohyeah-m from .OGG 117.19kb to .OGG 47.86kb Quality 0
+okboomer-m from .OGG 28.07kb to .OGG 17.79kb Quality 0
+omg5-m from .OGG 23.17kb to .OGG 20.71kb Quality 0
+omgg-m from .OGG 210.15kb to .OGG 87.96kb Quality 0
+onekill-m from .OGG 183.44kb to .OGG 97.68kb Quality 0
+open-m from .OGG 526.89kb to .OGG 94.61kb Quality 0
+panicmode-m from .OGG 186.56kb to .OGG 68.6kb Quality 0
+parararam-m from .OGG 211.66kb to .OGG 99.8kb Quality 0
+party2-m from .OGG 197.44kb to .OGG 76.55kb Quality 0
+perfect-m from .OGG 22.91kb to .OGG 12.48kb Quality 0
+pieceofme-m from .OGG 19.07kb to .OGG 15.79kb Quality 0
+pingu-m from .OGG 58.75kb to .OGG 13.36kb Quality 0
+pingudad-m from .OGG 136.19kb to .OGG 29.24kb Quality 0
+prepare-m from .OGG 126.47kb to .OGG 44.62kb Quality 0
+pufferrave-m from .OGG 569.75kb to .OGG 270.37kb Quality 0
+purple-m from .OGG 126.35kb to .OGG 69.92kb Quality 0
+putos-m from .OGG 280.4kb to .OGG 136.54kb Quality 0
+quad-m from .OGG 41.14kb to .OGG 21.27kb Quality 0
+question-m from .OGG 224.88kb to .OGG 135.89kb Quality 0
+quietdown-m from .OGG 11.91kb to .OGG 10.38kb Quality 0
+rust-m from .OGG 57.58kb to .OGG 31.73kb Quality 0
+salt-m from .OGG 101.85kb to .OGG 88.49kb Quality 0
+sansdance-m from .OGG 75.63kb to .OGG 35.7kb Quality 0
+scaped-m from .OGG 187.93kb to .OGG 116.82kb Quality 0
+scatman-m from .OGG 1006.08kb to .OGG 439.97kb Quality 0
+shoutout-m from .OGG 380.63kb to .OGG 212.42kb Quality 0
+sickomode-m from .OGG 332.74kb to .OGG 180.21kb Quality 0
+slav-m from .OGG 1.1mb to .OGG 488.49kb Quality 0
+sniper1-m from .OGG 75.06kb to .OGG 29.99kb Quality 0
+spanish-m from .OGG 185.83kb to .OGG 70.69kb Quality 0
+splashing-m from .OGG 395.8kb to .OGG 162.77kb Quality 0
+st-m from .OGG 50.77kb to .OGG 49.62kb Quality 0
+stereobruh-m from .OGG 264.18kb to .OGG 221.33kb Quality 0
+swamp-m from .OGG 52.96kb to .OGG 25.78kb Quality 0
+taunt-m from .OGG 289.01kb to .OGG 119.44kb Quality 0
+tetris1-m from .OGG 956.55kb to .OGG 362.31kb Quality 0
+tetris2-m from .OGG 621.27kb to .OGG 270.08kb Quality 0
+tetris2x-m from .OGG 452.83kb to .OGG 219.54kb Quality 0
+tetris4-m from .OGG 227.42kb to .OGG 88.04kb Quality 0
+texto-m from .OGG 137.87kb to .OGG 57.53kb Quality 0
+tomscream1-m from .OGG 50.61kb to .OGG 21.14kb Quality 0
+tomscream2-m from .OGG 47.11kb to .OGG 20.38kb Quality 0
+triage-m from .OGG 471.55kb to .OGG 242.0kb Quality 0
+twice-m from .OGG 17.4kb to .OGG 13.0kb Quality 0
+ty-m from .OGG 43.69kb to .OGG 20.88kb Quality 0
+uganda1-m from .OGG 673.41kb to .OGG 272.14kb Quality 0
+undercover-m from .OGG 108.16kb to .OGG 67.55kb Quality 0
+uwaaa-m from .OGG 58.65kb to .OGG 24.83kb Quality 0
+voxnumber9-m from .OGG 431.95kb to .OGG 170.85kb Quality 0
+wafn-m from .OGG 22.33kb to .OGG 13.55kb Quality 0
+wasted-m from .OGG 109.58kb to .OGG 58.36kb Quality 0
+weakshit-m from .OGG 49.83kb to .OGG 54.36kb Quality 0
+whaaat-m from .OGG 40.11kb to .OGG 25.99kb Quality 0
+whatyousaid-m from .OGG 148.87kb to .OGG 99.3kb Quality 0
+wheeze-m from .OGG 94.97kb to .OGG 79.42kb Quality 0
+wtf4-m from .OGG 52.84kb to .OGG 46.38kb Quality 0
+yatatata-m from .OGG 130.85kb to .OGG 59.62kb Quality 0
+yeet-m from .OGG 83.59kb to .OGG 40.96kb Quality 0
+yeit-m from .OGG 13.02kb to .OGG 8.79kb Quality 0
+yoda PLACEHOLDER <Reason: Quality loss>::
+youwhat-m from .OGG 14.45kb to .OGG 10.16kb Quality 0
+
+
+[Directory: sound/puchi/spportal] indv [1] (1 new) <1> authomx cc 
+threetwoone-m from .WAV 38kb to .OGG 13kb Quality 0
+
+[Directory: sound/sandwich] indv [24] (18 new + 6 old) <24> authomx cc
+2pac PLACEHOLDER <Reason: Quality loss>::
+aaaa-m from .OGG 12kb to .OGG 10kb Quality 0
+aaaah-m from .WAV 17kb to .OGG 8kb Quality 0
+beatit PLACEHOLDER <Reason: Quality loss>::
+crawling-m from .OGG 58kb to .OGG 37kb Quality 0
+d2pal-m from .OGG 20kb to .OGG 15kb Quality 0
+ffs-m from .OGG 21kb to .OGG 15kb Quality 0
+greatagain-m from .OGG 41kb to .OGG 24kb Quality 0
+huehuehue-m from .OGG 66kb to .OGG 34kb Quality 0
+needweapon-m from .OGG 16kb to .OGG 11kb Quality 0
+noo-m from .WAV 10kb to .OGG 6kb Quality 0
+noplease-m from .WAV 14kb to .OGG 7kb Quality 0
+ohno0-m from .WAV 6kb to .OGG 5kb Quality 0 RENAMED from ohno-m (Duplicate entry exists during merger)
+rickroll2 PLACEHOLDER <Reason: Quality loss>::
+risitas-m from .WAV 328kb to .OGG 34kb Quality 0
+sanic-m from .OGG 90kb to .OGG 55kb Quality 0
+soniic PLACEHOLDER <Reason: Quality loss>::
+thriller PLACEHOLDER <Reason: Quality loss>::
+toasty-m from .OGG 8kb to .OGG 7kb Quality 0
+tomjones PLACEHOLDER <Reason: Quality loss>::
+trumpwall-m from .OGG 69kb to .OGG 38kb Quality 0
+urgay-m from .OGG 28kb to .OGG 20kb Quality 0
+wazza-m from .OGG 45kb to .OGG 33kb Quality 0
+whistle-m from .OGG 41kb to .OGG 28kb Quality 0
+
+[Directory: sound/sank] batc [68] (68 new) <68> authomx cc
+bombpl-m from .WAV 32.62kb to .OGG 9.75kb Quality 0
+boomheadshot-m from .MP3 127.05kb to .OGG 41.5kb Quality 0
+brb_n01-m from .MP3 33.8kb to .OGG 17.5kb Quality 0
+bye_n01-m from .MP3 29.32kb to .OGG 10.1kb Quality 0
+combobreaker-m from .MP3 26.47kb to .OGG 12.72kb Quality 0
+cum_n01-m from .MP3 8.55kb to .OGG 6.24kb Quality 0
+dafuq_n01-m from .MP3 25.25kb to .OGG 12.61kb Quality 0
+damnson_n01-m from .MP3 38.28kb to .OGG 16.42kb Quality 0
+defeat-m from .MP3 18.33kb to .OGG 10.25kb Quality 0
+denied_n01-m from .MP3 27.28kb to .OGG 12.89kb Quality 0
+done_n01-m from .MP3 10.18kb to .OGG 6.84kb Quality 0
+dum_n01-m from .MP3 35.43kb to .OGG 12.97kb Quality 0
+english-m from .WAV 51.04kb to .OGG 12.71kb Quality 0
+excellent_n01-m from .MP3 14.66kb to .OGG 9.37kb Quality 0
+ez-m from .MP3 29.32kb to .OGG 15.83kb Quality 0
+faggot_n01-m from .MP3 11.81kb to .OGG 8.37kb Quality 0
+failed_n01-m from .MP3 68.82kb to .OGG 25.1kb Quality 0
+fatality_n01-m from .MP3 24.03kb to .OGG 12.59kb Quality 0
+finishhim_n01-m from .MP3 19.14kb to .OGG 10.55kb Quality 0
+gameover_n01-m from .MP3 34.61kb to .OGG 15.6kb Quality 0
+gay_n01-m from .MP3 43.17kb to .OGG 17.82kb Quality 0
+getoverhere_n01-m from .MP3 33.8kb to .OGG 14.58kb Quality 0
+gg-m from .MP3 35.02kb to .OGG 16.04kb Quality 0
+goodmorning_n01-m from .MP3 40.72kb to .OGG 16.76kb Quality 0
+gotyou_n01-m from .MP3 11.81kb to .OGG 7.78kb Quality 0
+gtg_n01-m from .MP3 83.07kb to .OGG 23.63kb Quality 0
+hax_n01-m from .MP3 21.18kb to .OGG 10.92kb Quality 0
+hefuckup_n01-m from .MP3 49.27kb to .OGG 23.55kb Quality 0
+hi_n01-m from .MP3 18.73kb to .OGG 9.59kb Quality 0
+hot_n01-m from .MP3 52.12kb to .OGG 22.58kb Quality 0
+humiliation-m from .MP3 20.36kb to .OGG 10.6kb Quality 0
+idea_n01-m from .MP3 17.51kb to .OGG 7.12kb Quality 0
+idgaf_n01-m from .MP3 26.47kb to .OGG 11.94kb Quality 0
+illuminatitrap_n01-m from .MP3 252.89kb to .OGG 102.1kb Quality 0
+impressive_n01-m from .MP3 16.7kb to .OGG 10.17kb Quality 0
+itsatrap_n01-m from .MP3 26.06kb to .OGG 12.22kb Quality 0
+kissmyass-m from .MP3 25.66kb to .OGG 13.15kb Quality 0
+kiss_n01-m from .MP3 21.58kb to .OGG 11.47kb Quality 0
+ko-m from .MP3 50.09kb to .OGG 20.66kb Quality 0
+kobe-m from .MP3 7.74kb to .OGG 6.61kb Quality 0
+leeroy_n01-m from .MP3 67.19kb to .OGG 26.09kb Quality 0
+nom_n01-m from .MP3 39.09kb to .OGG 16.85kb Quality 0
+noo_n01-m from .MP3 77.37kb to .OGG 26.85kb Quality 0
+no_n01-m from .MP3 19.55kb to .OGG 10.38kb Quality 0
+ohno-m from .MP3 7.33kb to .OGG 6.04kb Quality 0
+peanuts_n01-m from .MP3 11.0kb to .OGG 7.73kb Quality 0
+pentakill-m from .MP3 34.21kb to .OGG 15.23kb Quality 0
+pills_n01-m from .MP3 178.77kb to .OGG 68.77kb Quality 0
+prank-m from .MP3 86.33kb to .OGG 36.45kb Quality 0
+predator-m from .MP3 167.78kb to .OGG 67.68kb Quality 0
+punch_n01-m from .MP3 50.09kb to .OGG 18.41kb Quality 0
+pussy_n01-m from .MP3 20.77kb to .OGG 10.42kb Quality 0
+rape-m from .MP3 30.54kb to .OGG 13.85kb Quality 0
+retard2_n01-m from .MP3 70.86kb to .OGG 24.49kb Quality 0
+runnn_n01-m from .MP3 45.2kb to .OGG 19.05kb Quality 0
+sob-m from .MP3 24.84kb to .OGG 11.06kb Quality 0
+steppingonbeach-m from .MP3 126.65kb to .OGG 50.79kb Quality 0
+tamtamtam_n01-m from .MP3 61.08kb to .OGG 23.06kb Quality 0
+thug_n01-m from .MP3 159.63kb to .OGG 60.67kb Quality 0
+triple_n01-m from .MP3 76.15kb to .OGG 30.18kb Quality 0
+victory2-m from .MP3 67.19kb to .OGG 26.88kb Quality 0
+wickedsick-m from .MP3 32.17kb to .OGG 15.1kb Quality 0
+wow_n01-m from .MP3 14.25kb to .OGG 8.31kb Quality 0
+wtfboom_n01-m from .MP3 130.31kb to .OGG 49.6kb Quality 0
+yeaaa-m from .MP3 105.88kb to .OGG 36.24kb Quality 0
+yee2_n01-m from .MP3 17.92kb to .OGG 8.52kb Quality 0
+yee_n01-m from .MP3 8.14kb to .OGG 6.17kb Quality 0
+yess_n01-m from .MP3 90.4kb to .OGG 28.94kb Quality 0
+
+
+[Directory: sound/sanksound/Efectos] batc [24] (24 new) <24> authomx cc
+allahu-m from .WAV 238.78kb to .OGG 16.52kb Quality 0
+argh-m from .WAV 161.25kb to .OGG 14.54kb Quality 0
+denunciado-m from .WAV 629.13kb to .OGG 62.36kb Quality 0
+headshot-m from .WAV 326.39kb to .OGG 25.07kb Quality 0
+hongos-m from .WAV 78.56kb to .OGG 8.26kb Quality 0
+jaaa-m from .WAV 622.96kb to .OGG 30.88kb Quality 0
+marmota2-m from .WAV 209.25kb to .OGG 18.31kb Quality 0
+nimerga-m from .WAV 342.15kb to .OGG 26.48kb Quality 0
+no-m from .WAV 41.14kb to .OGG 7.26kb Quality 0
+pwnd-m from .WAV 494.73kb to .OGG 39.09kb Quality 0
+showup-m from .WAV 222.79kb to .OGG 33.58kb Quality 0
+teemo-m from .WAV 164.33kb to .OGG 13.91kb Quality 0
+tooeasy-m from .WAV 72.04kb to .OGG 14.31kb Quality 0
+uguu-m from .WAV 108.08kb to .OGG 10.47kb Quality 0
+visteado-m from .WAV 822.37kb to .OGG 59.09kb Quality 0
+wascool-m from .WAV 74.29kb to .OGG 14.18kb Quality 0
+wiki2-m from .WAV 117.6kb to .OGG 10.36kb Quality 0
+win-m from .WAV 846.06kb to .OGG 59.32kb Quality 0
+wojojo-m from .WAV 71.09kb to .OGG 13.61kb Quality 0
+wombocombo-m from .WAV 436.54kb to .OGG 44.62kb Quality 0
+wow_-m from .WAV 648.09kb to .OGG 46.23kb Quality 0
+wtf-m from .WAV 68.54kb to .OGG 13.19kb Quality 0
+wujaja-m from .WAV 367.17kb to .OGG 29.75kb Quality 0
+yijaja-m from .WAV 1.29mb to .OGG 87.77kb Quality 0
+
+
+[Directory: sound/sanksound/Musica2] indv [1] (1 old) <1> authomx cc
+sonic PLACEHOLDER <Reason: Quality loss>::
+
+[Directory: sound/sectore] batc [3] (3 new) <3> authomx cc
+goodwork-m from .WAV 8.15kb to .OGG 4.85kb Quality 0
+supb-m from .WAV 9.16kb to .OGG 5.14kb Quality 0
+xenop4music_once-m from .MP3 1.09mb to .OGG 470.25kb Quality 0
+
+
+[Directory: sound/sonic_the_hedgehog] batc [3] (3 new) <3> authomx cc
+boss1-m from .OGG 346.6kb to .OGG 205.69kb Quality 0
+boss2-m from .OGG 403.88kb to .OGG 255.72kb Quality 0
+sonic_ending-m from .WAV 318.03kb to .OGG 39.66kb Quality 0
+
+
+[Directory: sound/voice_commands/tucumanos] batc [17] (17 new) <17> authomx cc
+atiendo_boludos-m from .OGG 36.45kb to .OGG 9.28kb Quality 0
+clear-m from .WAV 23.37kb to .OGG 8.06kb Quality 0
+com_getinpos-m from .WAV 47.96kb to .OGG 12.54kb Quality 0
+com_go-m from .WAV 28.75kb to .OGG 9.07kb Quality 0
+ctwin-m from .WAV 40.49kb to .OGG 11.22kb Quality 0
+ct_enemys-m from .WAV 26.82kb to .OGG 8.84kb Quality 0
+enemydown-m from .WAV 26.45kb to .OGG 8.58kb Quality 0
+fallback-m from .WAV 31.17kb to .OGG 9.65kb Quality 0
+fire-m from .WAV 30.93kb to .OGG 9.28kb Quality 0
+fireassis-m from .WAV 54.82kb to .OGG 13.84kb Quality 0
+followme-m from .WAV 24.17kb to .OGG 7.92kb Quality 0
+gaben-m from .OGG 15.82kb to .OGG 10.38kb Quality 0
+negative-m from .WAV 20.99kb to .OGG 7.58kb Quality 0
+negative03-m from .WAV 88.33kb to .OGG 7.51kb Quality 0
+position-m from .WAV 30.11kb to .OGG 9.55kb Quality 0
+regroup-m from .WAV 33.39kb to .OGG 9.84kb Quality 0
+rip_n01-m from .MP3 343.29kb to .OGG 97.44kb Quality 0
+
+[Directory: sound/yarfde] indv [1] (1 new) <1> authomx cc
+movebit-m from .OGG 106kb to .OGG 49kb Quality 0
+
+[Directory: sound/w00tguy] Avoided this since it is part of maps made by w00tguy
