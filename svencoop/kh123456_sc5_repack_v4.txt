@@ -1,0 +1,32 @@
++-------------------------------------------+
+| KeenHalloween 1-6 repack for Sven Co-op 5 |
+|-------------------------------------------|
+| by animaliZed, thx to CryoKeen and Nih    |
++-------------------------------------------+
+
+Changes:
+--------
+- All files included to work with SC5
+- Only using sound/keenhalloween for kh1-5 (not folders for submaps)
+- Merged and cleaned global model and global sound replacement lists
+- Fixed some soundlists and sounds (including Nihs robotlove music on kh6)
+- Fixed weaponmodels in global model replacement lists (same modelset in every map)
+- Fixed the barnacle grapple tounge offset (new: oxyhalloween/v_bgrap_fixed.mdl)
+- Fixed displaying models of Chrondo, JPolito and Villager on kh2 and kh5
+- Dark Drones on kh4 now use sectore/darkdrone3.mdl and according sounds
+- Displayname for Skeletons are now "Skeleton" instead of "Alien Slave"
+- Rikers CheeseCrab talking now works (game_text) on kh3
+- Hornetgun now spawns once on kh4
+- Misc. small fixes and adjustments
+- Generated clean .res files etc.
+
+Note: Maps have been ripented, though it is advised to use this version for clients too.
+
+Enjoy.
+
+
+Changes (December 7, 2016) by JPolito:
+- Added missing file "models/hunger/hungerzork.mdl"
+
+Changes (December 10, 2016) by JPolito:
+- Added the above model to all of the res files.
