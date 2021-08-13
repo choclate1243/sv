@@ -74,7 +74,7 @@ class trigger_once_mp : ScriptBaseEntity {
 				}
 				
 				if (totalPlayers > 0.0f) {
-					currentPercentage = playersTrigger / totalPlayers;
+					currentPercentage = playersTrigger / totalPlayers + 0.00001f;
 
 					if( currentPercentage >= m_flPercentage ) {
 						m_fActivated = true;

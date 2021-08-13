@@ -1,0 +1,47 @@
+//
+// DELIVERANCE SENTENCES
+//
+
+// Human-grunt
+
+HG_OHSHIT hgrunt/_period (p110) oh! shit!. freeman!(p120) _period
+HG_HESHERE hgrunt/_period (p120) sir! freeman!(p120 t40) is!(t30) here!. we! need!(p120 t40) backup!(t10) _period
+HG_ALARM hgrunt/_period (p110) roger!, tango! foxtrot! your!(t30) position!(t30) _period
+HG_COVER8 deliver/hgrunt/fallback!
+HG_COVER9 hgrunt/_period (p110) sir!, we! have! alien! hostiles! one! level! four! _period
+HG_TANGO6 hgrunt/_period (p120) tango! six! under! fire!, request!(t40) backup! over! _period
+HG_QUIET hgrunt/quiet!
+HG_FREEMAN hgrunt/(p120) shit!, freeman! _period
+HG_BLOWAWAY hgrunt/(p110) squad!, blow! that! mother!(t20) away!(p100) _period
+HG_YESSIR hgrunt/(t20) _period sir!, yes! sir!(t30) _period
+HG_GETBACK hgrunt/_period move! away! _period(p120)
+HG_OUTOFHERE hgrunt/_period (p110) movement!, sir!, (t40) get! out! of!(p110) here!(p120) _period
+HG_YOURASS hgrunt/(t30) _period your! ass! is! my! freeman!(p110) _period
+
+// Scientist
+
+SC_NOSCANNER deliver/scientist/noscanner
+SC_SCREAM15 scientist/scream02
+SC_SCREAM16 scientist/scream22
+SC_SCREAM17 scientist/scream25
+SC_SCREAM18 scientist/scream4
+SC_SCREAM19 scientist/scream21
+SC_SCREAM20 scientist/scream2
+SC_SCREAM21 scientist/scream6
+SC_OKGETOUT scientist/okgetout
+SC_GETAWAY2 deliver/scientist/getaway
+SC_ALMOST deliver/scientist/almostthere
+SC_LETSGO scientist/alright, letsgo
+SC_OPENDOOR deliver/scientist/opendoor
+SC_GETUSOUT deliver/scientist/getusout
+SC_SHUTUP scientist/shutup2, ridiculous
+
+//VOX
+
+VOX_ELEVATOR VOX/(p98 e95) deeoo deeoo, warning, platform elevator activated
+VOX_COOLFAIL vox/(p130) buzwarn buzwarn (p98 e95) attention all personnel. bloop bloop bloop. emergency. lambda reactor coolant systems malfunction. e c c system activated.
+VOX_ECCSFAIL vox/(p98 e95) bloop bloop bloop. attention all personnel. e c c system failure detected. emergency core coolant system malfunction.
+VOX_COOLANT1 vox/(p98 e95) bloop bloop bloop. attention all personnel. warning, primary coolant system failure detected. 
+VOX_COOLANT2 vox/(p98 e95) bloop bloop bloop. attention all personnel. warning, primary coolant leak detected. extreme radiation hazard in core area.
+VOX_CORETEMP vox/(p98 e95) bloop bloop bloop. attention all personnel. warning, core temperature alert. danger, explosion hazard.
+VOX_EVACUATE vox/(p98 e95) bloop bloop bloop. attention all personnel. emergency. reactor safety systems inoperative. evacuate lambda reactor complex immediately.
