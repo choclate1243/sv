@@ -721,7 +721,7 @@ class geneworm_acid : ScriptBaseEntity {
 	void SolidThink(){
 		// self.pev.movetype = MOVETYPE_FLY;
 		self.pev.solid = SOLID_TRIGGER;
-		g_EntityFuncs.SetSize( self.pev, Vector( -16,-16,-16 ), Vector( 16,16,16 ) );
+		g_EntityFuncs.SetSize( self.pev, Vector( -4,-4,-16 ), Vector( 4,4,16 ) );
 		float bestDist = 1.0f;
 		
 		string aStr = "";
@@ -729,7 +729,7 @@ class geneworm_acid : ScriptBaseEntity {
 		for(int i1 = 0; i1 < 2; i1++){
 			for(int i2 = 0; i2 < 2; i2++){
 				for(int i3 = 0; i3 < 2; i3++){
-					Vector startPos = self.pev.origin - Vector(-16, -16, -16) + Vector( 32*i1, 32*i2, 32*i3);
+					Vector startPos = self.pev.origin - Vector(-4, -4, -4) + Vector( 8*i1, 8*i2, 8*i3);
 					Vector endPos = startPos + 8.0 * self.pev.velocity;
 					TraceResult tr;
 					

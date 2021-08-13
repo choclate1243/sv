@@ -1,0 +1,9 @@
+===============================================================================
+ The Long Night
+===============================================================================
+
+Title			: The Long Night
+Author			: Germano "Uoz" Guerrini
+E-mail			: uozhl@freemail.it
+Web Site		: http://www.halflifeitalia.com
+Description		: Single player episode for Half-Life
