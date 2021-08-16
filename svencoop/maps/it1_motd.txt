@@ -1,0 +1,33 @@
+__________________________________________
+
+Hangar16 presents "INTOLERABLE THREAT"
+__________________________________________
+
+As Gordon Freeman, you must face down the Administrator for the last time.
+The Administrator has taken control of "HANGAR 16" a government command and control
+facility in the desert. From here he is possibly planning a coup against
+the government of the United States, and vengeance against those who have opposed
+him in the past. You need to meet with an agent who has the access codes to
+enter the heavily guarded base, infiltrate it and prepare the way for friendly
+forces to attack.
+
+CREDITS
+
+*IT TEAM*
+
+Project coordinator/website: Robert Volonnino (Vnitro@optonline.net)
+Project Lead/Lead Designer: Barry Bollinger (bxb209@hotmail.com) 
+Level Designers:
+Barry Bollinger (bxb209@hotmail.com)
+Dave Waters (dwaters59@msn.com)
+Peter Lok (peter_lok@yahoo.com)
+Karl Gregory Jones (karl@karljones.com)
+Evan Hort (ease_fpc@msn.com)
+
+Custom Skinned Models: Vnitro & Slickfty1
+ 
+Music: James Moran aka Kurlac
+
+Sound: "New" sounds by Silver Sorrow
+
+Sven Co-op conversion by Outerbeast
